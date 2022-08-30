@@ -1,0 +1,14 @@
+.counter-box{
+    margin: 15px auto;
+    background-color: #287eda;
+    max-width: 50%;
+    text-align: center;
+    padding: 25px;
+}
+
+.btn{
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid white;
+    margin: 0 10px 15px;
+}
