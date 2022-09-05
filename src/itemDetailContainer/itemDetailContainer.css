@@ -1,0 +1,24 @@
+#itemDetail-container {
+    width: 100%;
+    height: 100vh;
+    
+}
+
+
+#itemDetail {
+    display: flex;
+}
+
+
+
+#imagenProducto{
+    width: 50%;
+}
+
+
+#infoProducto {
+    text-align: center;
+    padding: 2rem;
+
+
+}

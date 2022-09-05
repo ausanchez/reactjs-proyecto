@@ -3,7 +3,7 @@ import './ItemCount.css'
 
 const ItemCount = ({stock, onAdd}) => {
     
-    const [count,setCount] = useState(0)
+    const [count,setCount] = useState(1 )
 
     function add(){
         if(count < stock){
@@ -12,13 +12,13 @@ const ItemCount = ({stock, onAdd}) => {
     }
     
     function substract(){
-        if(count > 0){
+        if(count > 1){
         setCount(count - 1)
         }
     }
 
     function reset(){
-        setCount(0)
+        setCount(1)
     }
    
     return (
